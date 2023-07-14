@@ -8,27 +8,21 @@ Open a text editor and paste the cleaned up script into a new file. Save the fil
 Open a terminal and navigate to the directory where you saved the script.
 
 Make the script executable by running the following command:
-'''
-bash
-Copy code
+```
 chmod +x zerotier_autojoin.sh
-'''
+```
 Run the script by executing the following command:
 
 
-'''
-bash
-Copy code
+```
 ./zerotier_autojoin.sh --network=<32charalphanum> --api=<32charalphanum> [ <other options: see below> ]
-'''
+```
 Replace <32charalphanum> with the appropriate values for the network ID and API key. You can also specify additional options as needed.
 
 For example:
-'''
-bash
-Copy code
+```
 ./zerotier_autojoin.sh --network=0123456789abcdef --api=0123456789abcdef
-'''
+```
 
 Note that you should provide valid values for the network ID and API key.
 
