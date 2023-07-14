@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #!/bin/bash
 ### Created by Jatinder Grewal @ j@grewal.co 
 # This script will automatically join a new member (device) to a ZeroTier network. Can be used with cloud-init or during other deployment tools.
@@ -275,4 +274,4 @@ fi # Join member\
 \
 exit 0\
 }
->>>>>>> origin/main
+
